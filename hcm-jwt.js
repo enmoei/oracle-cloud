@@ -10,11 +10,11 @@ if (!document.getElementById('enmoei-injection-jquery')) {
     h.appendChild(j);
 }
 
-if (!document.getElementById('enmoei-injection-memoent')) {
+if (!document.getElementById('enmoei-injection-moment')) {
     var m = document.createElement('script');
     m.type = 'text/javascript';
     m.src = '//momentjs.com/static/js/global.js';
-    m.id = 'enmoei-injection-memoent';
+    m.id = 'enmoei-injection-moment';
     h.appendChild(m);
 }
 
